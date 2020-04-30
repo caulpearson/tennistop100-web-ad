@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(202, 202, 202);
+        color: rgb(46, 46, 46);
+        margin: 5em;
+        margin-top: 2em;
+        margin-left: 20%;
+        max-width: 800px;
+        font-family: sans-serif;
+        align-items: center;
+        display: flex;
+      }
+
+      .heading {
+        font-size: 4.5em;
+        color: rgb(46, 46, 46);
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-name: transition;
+        animation-duration: 3s;
+      }
+      @keyframes transition {
+        from {
+          color: rgb(46, 46, 46);
+        }
+        to {
+          color: rgb(66, 224, 35);
+        }
+      }
+
+      .main {
+        margin: 4em;
+        max-width: 80%;
+        align-self: center;
+        border-left: rgb(92, 92, 92);
+        border-right: rgb(92, 92, 92);
+      }
+
+      .description {
+        font-size: 2em;
+      }
+      .pic {
+        max-width: 300px;
+        max-height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="heading">Tennis Top 100</h1>
+
+      <div class="description">
+        <p>
+          Use the Tennis Top 100 app today.
+        </p>
+        <p>Runs flawlessly on the latest versions of Android!</p>
+        <img src="./pics/one.png" class="pic" alt="first-pic" />
+
+        <p>
+          You'll be able to view and analyze the statistics on the majors and
+          titles won by the greatest 100 tennis players in history.
+        </p>
+        <img src="./pics/two.png" class="pic" alt="second-pic" />
+        <p>
+          In the app you'll also be able to compare the statistics between the
+          players, within the app.
+        </p>
+        <img src="./pics/three.png" class="pic" alt="third-pic" />
+
+        <p>
+          The easy to use interface allows for player comparisons by clicking
+          the compare button, then selecting a player.
+        </p>
+        <img src="./pics/four.png" class="pic" alt="fourth-pic" />
+
+        <p>
+          If you then want to compare that same player to a different player you
+          can then click the compare button again and you'll be able to choose
+          another player to compare with.
+        </p>
+        <img src="./pics/five.png" class="pic" alt="fifth-pic" />
+        <p>
+          Additionally, the app features toggles to allow for the players to not
+          only be sorted by the all-time overall rankings, but also by how many
+          majors or titles they have won.
+        </p>
+        <img src="./pics/six.png" class="pic" alt="sixth-pic" />
+        <p>
+          This is easily done by clicking on the majors or titles button in the
+          action menu (pulled up by clicking the three little dots at the top of
+          the main page).
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
